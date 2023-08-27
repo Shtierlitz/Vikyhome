@@ -1,5 +1,4 @@
-# Vikyhome
-DRF + REACT SPA web site
+# Vikyhome cleaning-service API
 
 ## Description
 DRF + React project (cleaning website)
@@ -151,3 +150,4 @@ Django Rest Framework https://www.django-rest-framework.org/
 Swagger https://habr.com/ru/companies/otus/articles/583220/  
 JWT https://django-rest-framework-simplejwt.readthedocs.io/en/latest/  
 Docker https://docs.docker.com/  
+

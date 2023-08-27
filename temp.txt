@@ -1,0 +1,4 @@
+git fetch origin
+git reset --hard origin/<имя_ветки>
+
+REACT_APP_URL_SECRET=http://3.74.246.7
