@@ -29,5 +29,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 
-CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1', 'http://' + str(os.environ.get('IP_ES2'))]
+CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1', 'http://' + str(os.environ.get('IP_ES2')), 'https://vikyhome.com.ua', 'https://www.vikyhome.com.ua']
 

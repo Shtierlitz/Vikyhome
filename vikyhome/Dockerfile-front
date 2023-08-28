@@ -1,9 +1,12 @@
 # Этап сборки
-FROM node:18.16.0 as build_one
+FROM node:18-alpine as build_one
 WORKDIR /react
+
 COPY package.json package-lock.json ./
+
 RUN npm install
 COPY . ./
+RUN node --max_old_space_size=4096 ./node_modules/.bin/react-scripts build
 RUN npm run build
 
 # Этап запуска
