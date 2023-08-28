@@ -5,6 +5,7 @@ WORKDIR /react
 COPY package.json package-lock.json ./
 
 RUN npm install
+RUN npm audit fix --force  # Добавляем эту строку для исправления уязвимостей
 COPY . ./
 RUN node --max_old_space_size=4096 ./node_modules/.bin/react-scripts build
 RUN npm run build
