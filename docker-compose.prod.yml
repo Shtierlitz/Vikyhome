@@ -46,7 +46,7 @@ services:
       context: ./vikyhome
       dockerfile: Dockerfile-front
     ports:
-      - "3145:80"  # Здесь изменил порт с 3000 на 80
+      - "3145:80"
     volumes:
       - react_build:/react/build
     depends_on:
@@ -54,14 +54,13 @@ services:
 
   nginx:
     image: nginx:latest
-    restart: unless-stopped
     volumes:
-      - ./data/nginx/nginx_setup.conf:/etc/nginx/conf.d/default.conf
+      - ./data/nginx:/etc/nginx/conf.d
+      - ./data/certbot/conf:/etc/letsencrypt
+      - ./data/certbot/www:/var/www/certbot
       - react_build:/var/www/react
       - static_volume:/django/staticfiles
       - media_volume:/django/mediafiles
-      - ./data/certbot/conf:/etc/letsencrypt
-      - ./data/certbot/www:/var/www/certbot
       - ./vikyhome/public:/usr/share/nginx/html
     ports:
       - "80:80"
