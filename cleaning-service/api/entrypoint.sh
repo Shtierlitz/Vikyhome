@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Waiting 10 seconds before proceeding"
+echo "Waiting 3 seconds before proceeding"
 sleep 3
 if [ "$DATABASE" = "postgres" ]; then
   echo "Waiting for postgres..."
@@ -18,6 +18,11 @@ echo "Start migration"
 python manage.py migrate
 
 echo "Migration done!"
+
+# Сбор статических файлов
+echo "Collecting static files"
+python manage.py collectstatic --noinput
+echo "Static files collected"
 
 # Создаем суперпользователя, если он еще не создан.
 echo "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.create_superuser(os.environ.get('DJANGO_SUPERUSER_NAME_M'), os.environ.get('DJANGO_SUPERUSER_EMAIL_M'), os.environ.get('DJANGO_SUPERUSER_PASSWORD_M')) if not User.objects.filter(username=os.environ.get('DJANGO_SUPERUSER_NAME_M')).exists() else None" | python manage.py shell
