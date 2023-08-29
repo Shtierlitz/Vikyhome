@@ -15,6 +15,7 @@ const Modal = ({ serviceId, closeModal }) => {
   const [details, setDetails] = useState([]);
 
   const apiUrl = process.env.REACT_APP_URL_SECRET;
+  console.log("API URL:", apiUrl);
 
   const handleBackdropClick = (event) => {
     if (event.target === event.currentTarget) {
