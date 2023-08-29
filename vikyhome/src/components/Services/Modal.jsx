@@ -15,7 +15,7 @@ const Modal = ({ serviceId, closeModal }) => {
   const [details, setDetails] = useState([]);
 
   const apiUrl = process.env.REACT_APP_URL_SECRET;
-  console.log("API URL:", apiUrl);
+
 
   const handleBackdropClick = (event) => {
     if (event.target === event.currentTarget) {
@@ -27,7 +27,7 @@ const Modal = ({ serviceId, closeModal }) => {
   try {
     const response = await axios.get(`${apiUrl}/api/v1/services/${serviceId}/`);
     const data = response.data;
-   
+    console.log("API URL:", apiUrl);
     data.description = data.description.split('\n').map((line, index) => (
       <React.Fragment key={index}>
         {line}
