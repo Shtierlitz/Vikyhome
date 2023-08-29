@@ -32,15 +32,16 @@ DATABASES = {
 #     os.path.join(BASE_DIR, "static"),
 # )
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 
 CSRF_TRUSTED_ORIGINS = [
-    '127.0.0.1',
-    str(os.environ.get('IP_ES2')),
-    'vikyhome.com.ua',
-    'www.vikyhome.com.ua'
+    'http://127.0.0.1',
+    f"http://{str(os.environ.get('IP_ES2'))}",
+    'https://vikyhome.com.ua',
+    'https://www.vikyhome.com.ua'
 ]
 
 
