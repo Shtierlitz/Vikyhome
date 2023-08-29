@@ -10,8 +10,8 @@ ALLOWED_HOSTS = [
     'localhost',
     "3.74.141.58",
     'ip-172-31-42-188.eu-central-1.compute.internal',
-    'https://vikyhome.com.ua',
-    'https://www.vikyhome.com.ua'
+    'vikyhome.com.ua',
+    'www.vikyhome.com.ua'
 ]
 
 DATABASES = {
@@ -37,9 +37,10 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 
 CSRF_TRUSTED_ORIGINS = [
-    'http://127.0.0.1',
-    'http://' + str(os.environ.get('IP_ES2')),
-    'https://vikyhome.com.ua',
-    'https://www.vikyhome.com.ua'
+    '127.0.0.1',
+    str(os.environ.get('IP_ES2')),
+    'vikyhome.com.ua',
+    'www.vikyhome.com.ua'
 ]
+
 
