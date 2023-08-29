@@ -1,4 +1,4 @@
-# F:\Python\Тюрина деплой\cleaning_service\docker-compose.yml
+# F:\Python\Тюрина деплой\cleaning_service\docker-compose.prod.yml
 version: "3.9"
 
 services:
@@ -62,7 +62,7 @@ services:
       - media_volume:/django/mediafiles
       - ./data/certbot/conf:/etc/letsencrypt
       - ./data/certbot/www:/var/www/certbot
-      - ./public:/usr/share/nginx/html
+      - ./vikyhome/public:/usr/share/nginx/html
     ports:
       - "80:80"
       - "443:443"
