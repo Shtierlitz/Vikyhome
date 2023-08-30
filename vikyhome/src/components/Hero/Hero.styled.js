@@ -16,8 +16,6 @@ export const Wrap = styled.div`
     10px 10px 10px rgba(86, 83, 83, 0.969),
     10px 10px 10px rgba(169, 162, 162, 0.2);
   border-radius: 20px;
-  /* display: flex;
-  justify-content: space-around; */
   padding: 10px;
 
   @media ${DEVICE.tablet} {
@@ -83,8 +81,8 @@ export const Title = styled.h2`
   justify-content: center;
   align-items: center;
   /* font-family: 'Harrington'; */
-  text-shadow: #671629 4px 4px 3px;
-    font-size: 38px;
+  text-shadow: #671629 2px 2px 3px;
+    font-size: 43px;
     margin-top: 10px;
  
   @media ${DEVICE.tablet} {

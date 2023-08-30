@@ -17,8 +17,8 @@ export const Backdrop = styled.div`
 `;
 
 export const Container = styled.div`
-  max-width: 1000px;
-  max-height: 800px;
+  max-width: 800px;
+  max-height: 700px;
   background-color: ${(p) => p.theme.colors.colorPink};
   overflow: auto;
   position: relative;
@@ -54,8 +54,8 @@ export const WrapBtn = styled.div`
 `;
 
 export const CloseButton = styled.button`
-  width: 55px;
-  height: 55px;
+  width: 35px;
+  height: 35px;
   border: none;
   cursor: pointer;
   font-family: inherit;

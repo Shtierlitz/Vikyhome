@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import DEVICE from "../../../constants/deviceSize";
 
 export const WrapBtn = styled.div`
-margin-bottom: 55px;
+margin-bottom: 60px;
 background-color: transparent;
 color: transparent;
 border: none;
@@ -17,9 +17,15 @@ export const CloseButton = styled.button`
   font-family: inherit;
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 15px;
   background-color: ${p => p.theme.colors.colorPink};
   font-size: 30px;
+  @media ${DEVICE.tablet} {
+    right: 20px;
+  }
+  @media ${DEVICE.laptop} {
+
+  }
 `;
 
 export const ModalDescription = styled.p`
@@ -76,10 +82,8 @@ export const Backdrop = styled.div`
 `;
 
 export const ModalContainer = styled.div`
-  /* width: 300px;
- height: 840px; */
- max-width: 1000px;
-  max-height: 800px;
+ max-width: 800px;
+  max-height: 700px;
   position: relative;
   background-color: ${p => p.theme.colors.colorPink};
   overflow: auto; 

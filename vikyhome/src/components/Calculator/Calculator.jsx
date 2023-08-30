@@ -9,7 +9,7 @@ import {
   BtnChange,
   DeleteBtn,
   Input,
-
+  WrapInputBtn
 } from "./Calculator.styled";
 
 const Calculator = () => {
@@ -93,7 +93,7 @@ const Calculator = () => {
     <span>
       {service.title} - {service.price} ({service.price_description})
     </span>
-    <div>
+    <WrapInputBtn>
       {isItemSelected(service.id, "service") ? (
         <Input
           type="number"
@@ -117,7 +117,7 @@ const Calculator = () => {
       >
         {isItemSelected(service.id, "service") ? "Вибрано" : "Вибрати"}
       </BtnChange>
-    </div>
+    </WrapInputBtn>
   </Item>
 ))}
       </CalcList>
@@ -129,7 +129,7 @@ const Calculator = () => {
     <span>
       {item.title} - {item.price} ({item.price_description})
     </span>
-    <div>
+    <WrapInputBtn>
       {isItemSelected(item.id, "extra") ? (
         <Input
           type="number"
@@ -152,7 +152,7 @@ const Calculator = () => {
       >
         {isItemSelected(item.id, "extra") ? "Вибрано" : "Вибрати"}
       </BtnChange>
-    </div>
+    </WrapInputBtn>
   </Item>
 ))}
       </CalcList>

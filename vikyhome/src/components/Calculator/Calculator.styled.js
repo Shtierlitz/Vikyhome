@@ -127,4 +127,7 @@ export const Input = styled.input`
 
 `;
 
+export const WrapInputBtn = styled.div`
+  display: flex;
+`;
 
