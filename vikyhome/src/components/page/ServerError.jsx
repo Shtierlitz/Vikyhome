@@ -5,7 +5,7 @@ import {
   } from "./ServerError.styled";
   import img from "../../images/server-error.png";
 
-const NotFound = () => {
+const ServerError = () => {
   return (
     <Container>
     <Image src={img} alt="image"/>
@@ -13,4 +13,4 @@ const NotFound = () => {
   );
 };
 
-export default NotFound;
+export default ServerError ;
