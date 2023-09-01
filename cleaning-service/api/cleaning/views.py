@@ -5,6 +5,15 @@ from rest_framework.permissions import IsAuthenticated, AllowAny
 
 from .models import Service, Extra
 from .serializers import ServiceSerializer, ExtraSerializer
+from django.shortcuts import render
+
+
+def custom_404(request, exception):
+    return render(request, 'cleaning/404.html', {}, status=404)
+
+
+def custom_500(request):
+    return render(request, 'cleaning/500.html', {}, status=500)
 
 
 class ServiceViewSet(viewsets.ModelViewSet):
