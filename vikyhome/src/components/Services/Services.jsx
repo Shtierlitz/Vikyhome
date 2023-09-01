@@ -8,6 +8,7 @@ import {
 } from "./Services.styled";
 import Modal from "./Modal";
 import ExtraServices from "./ExtraServices/ExtraServices";
+import ServerError from "../page/ServerError";
 import image from "../../images/vacuum-cleaner.png";
 
 
@@ -15,6 +16,7 @@ const Services = () => {
   const [data, setData] = useState([]);
   const [selectedServiceId, setSelectedServiceId] = useState(null);
   const [isOpenExtra, setOpenExtra] = useState(false);
+  const [error, setError] = useState(null);
 
   const apiUrl = process.env.REACT_APP_URL_SECRET;
 
@@ -24,7 +26,11 @@ const Services = () => {
       const sortedData = response.data.sort((a, b) => a.id - b.id);
       setData(sortedData);
     } catch (error) {
-      console.error(error);
+      if (error.response && error.response.status === 500) {
+        setError(error); 
+      } else {
+        console.error(error);
+      }
     }
   }, [apiUrl]);
   
@@ -45,7 +51,9 @@ const closeModal = () => {
   document.body.style.overflow = "auto"; 
 };
 
-
+if (error) {
+  return <ServerError />; 
+}
 
 
 const openExtra = () => {
