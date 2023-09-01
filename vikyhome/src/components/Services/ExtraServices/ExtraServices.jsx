@@ -11,10 +11,12 @@ import {
   Backdrop,
 } from "./ExtraServices.styled";
 import { GrClose } from "react-icons/gr";
+import ServerError from "../../page/ServerError";
 
 
 const ExtraServices = ({ type, closeModal }) => {
     const [dataExtra, setDataExtra] = useState([]);
+    const [error, setError] = useState(null);
 
     const apiUrl = process.env.REACT_APP_URL_SECRET;
 
@@ -29,7 +31,11 @@ const ExtraServices = ({ type, closeModal }) => {
         const extraResponse = await axios.get(`${apiUrl}/api/v1/extra/`);
         setDataExtra(extraResponse.data);
       } catch (error) {
-        console.error(error);
+        if (error.response && error.response.status === 500) {
+          setError(error); 
+        } else {
+          console.error(error);
+        }
       }
     }, [apiUrl]);
   
@@ -37,7 +43,9 @@ const ExtraServices = ({ type, closeModal }) => {
       getServices();
     }, [getServices]);
   
- 
+    if (error) {
+      return <ServerError />; 
+    }
     return (
      
     <Backdrop onClick={handleBackdropClick}>

@@ -10,9 +10,11 @@ import {
   ModalBox,
 } from "./Modal.styled";
 import { GrClose } from "react-icons/gr";
+import ServerError from "../page/ServerError";
 
 const Modal = ({ serviceId, closeModal }) => {
   const [details, setDetails] = useState([]);
+  const [error, setError] = useState(null);
 
   const apiUrl = process.env.REACT_APP_URL_SECRET;
 
@@ -36,7 +38,11 @@ const Modal = ({ serviceId, closeModal }) => {
     ));
     setDetails(data);
   } catch (error) {
-    console.error(error);
+    if (error.response && error.response.status === 500) {
+      setError(error); 
+    } else {
+      console.error(error);
+    }
   }
 }, [ apiUrl, serviceId]);
 
@@ -44,7 +50,9 @@ useEffect(() => {
   getDetails();
 }, [getDetails]);
 
-
+if (error) {
+  return <ServerError />
+}
 
 
   return (

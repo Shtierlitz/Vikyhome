@@ -11,6 +11,7 @@ import {
   Input,
   WrapInputBtn
 } from "./Calculator.styled";
+import ServerError from "../page/ServerError";
 
 const Calculator = () => {
   const initialSelectedItems =
@@ -19,6 +20,7 @@ const Calculator = () => {
   const [extra, setExtra] = useState([]);
   const [selectedItems, setSelectedItems] = useState(initialSelectedItems);
   const [totalAmount, setTotalAmount] = useState(0);
+  const [error, setError] = useState(null);
 
   const apiUrl = process.env.REACT_APP_URL_SECRET;
 
@@ -36,7 +38,11 @@ const Calculator = () => {
       const extraResponse = await axios.get(`${apiUrl}/api/v1/extra/`);
       setExtra(extraResponse.data);
     } catch (error) {
-      console.error(error);
+      if (error.response && error.response.status === 500) {
+        setError(error); 
+      } else {
+        console.error(error);
+      }
     }
   }, [apiUrl]);
   
@@ -83,6 +89,10 @@ const Calculator = () => {
     );
     setTotalAmount(amount);
   }, [selectedItems]);
+
+  if (error) {
+    return <ServerError />; 
+  }
 
   return (
     <CalcContainer>
