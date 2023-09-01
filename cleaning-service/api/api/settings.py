@@ -83,11 +83,8 @@ TEMPLATES = [
     },
 ]
 
-# settings.py
-
-HANDLER404 = 'api.urls.custom_404'  # Измените, если необходимо
-HANDLER500 = 'api.urls.custom_500'  # Измените, если необходимо
-
+handler404 = 'api.urls.custom_404'
+handler500 = 'api.urls.custom_500'
 
 WSGI_APPLICATION = "api.wsgi.application"
 
