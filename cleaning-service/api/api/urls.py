@@ -10,10 +10,13 @@ from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 from django.conf import settings
 from django.shortcuts import render
+import logging
 
 
-def custom_404(request, exception):
-    print("404 exception")
+logger = logging.getLogger(__name__)
+
+def custom_404(request, *args, **kwargs):
+    logger.error("Custom 404 is triggered")
     return render(request, 'cleaning/404.html', {}, status=404)
 
 
@@ -49,8 +52,8 @@ urlpatterns = [
 
     # path('api/custom_404/', TemplateView.as_view(template_name="cleaning/404.html")),
     # path('api/custom_500/', TemplateView.as_view(template_name="cleaning/500.html")),
-    re_path(r'^404/$', custom_404),
-    re_path(r'^500/$', custom_500),
+    path('api/custom_404/', custom_404),
+    path('api/custom_500/', custom_500),
 ]
 
 if settings.DEBUG == False:  # только если DEBUG = False
