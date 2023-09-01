@@ -58,6 +58,7 @@ services:
       - ./data/nginx:/etc/nginx/conf.d
       - ./data/certbot/conf:/etc/letsencrypt
       - ./data/certbot/www:/var/www/certbot
+      - ./cleaning-service/api/cleaning/templates/cleaning:/var/www/errors
       - react_build:/var/www/react
       - static_volume:/django/staticfiles
       - media_volume:/django/mediafiles
