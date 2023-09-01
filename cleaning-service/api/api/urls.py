@@ -1,5 +1,6 @@
 # api/api/urls.py
-
+from django.conf.urls.static import static
+from django.http import HttpResponseNotFound, HttpResponseServerError
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView, TokenVerifyView
 
 from django.contrib import admin
@@ -7,7 +8,19 @@ from django.urls import path, include, re_path
 from rest_framework import permissions
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
-from django.views.generic import TemplateView
+from django.conf import settings
+from django.shortcuts import render
+
+
+def custom_404(request, exception):
+    print("404 exception")
+    return render(request, 'cleaning/404.html', {}, status=404)
+
+
+def custom_500(request):
+    print("500 exception")
+    return render(request, 'cleaning/500.html', {}, status=500)
+
 
 schema_view = get_schema_view(
     openapi.Info(
@@ -34,7 +47,14 @@ urlpatterns = [
     path('api/swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('api/redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 
-    path('api/custom_404/', TemplateView.as_view(template_name="cleaning/404.html")),
-    path('api/custom_500/', TemplateView.as_view(template_name="cleaning/500.html")),
-
+    # path('api/custom_404/', TemplateView.as_view(template_name="cleaning/404.html")),
+    # path('api/custom_500/', TemplateView.as_view(template_name="cleaning/500.html")),
+    re_path(r'^404/$', custom_404),
+    re_path(r'^500/$', custom_500),
 ]
+
+if settings.DEBUG == False:  # только если DEBUG = False
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+handler404 = custom_404
+handler500 = custom_500

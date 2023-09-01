@@ -83,8 +83,11 @@ TEMPLATES = [
     },
 ]
 
-HANDLER404 = 'cleaning.views.custom_404'  # указывает на вашу функцию обработки 404 ошибок
-HANDLER500 = 'cleaning.views.custom_500'  # указывает на вашу функцию обработки 500 ошибок
+# settings.py
+
+HANDLER404 = 'api.urls.custom_404'  # Измените, если необходимо
+HANDLER500 = 'api.urls.custom_500'  # Измените, если необходимо
+
 
 WSGI_APPLICATION = "api.wsgi.application"
 

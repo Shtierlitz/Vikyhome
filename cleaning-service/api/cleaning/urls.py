@@ -1,11 +1,9 @@
 # api/cleaning/urls.py
 
-from django.urls import path, include
+from django.urls import path, include, re_path
 from rest_framework.routers import DefaultRouter
 
 from .views import ServiceViewSet, ExtraViewSet
-
-
 
 router = DefaultRouter()
 router.register(r'services', ServiceViewSet)
@@ -14,5 +12,4 @@ router.register(r'extra', ExtraViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-
 ]
