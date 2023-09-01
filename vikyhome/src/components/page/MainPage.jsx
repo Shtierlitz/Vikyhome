@@ -5,6 +5,7 @@ import Hero from '../Hero/Hero';
 import Statistics from '../Statistics/Statistics';
 import CalculateButton from '../Calculator/CalculatorBtn';
 import Services from "../Services/Services";
+import Order from '../Order/Order';
 import PhotoGallery from '../BeforeAfter/PhotoGallery';
 import Footer from '../Footer/Footer';
 import { ThemeProvider } from 'styled-components';
@@ -19,6 +20,7 @@ const MainPage = () => {
         <Statistics />
         <Services />
         <CalculateButton />
+        <Order/>
         <PhotoGallery />
         <Footer />
       </Container>
