@@ -1,20 +1,100 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Ошибка 500</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error page</title>
+
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #c6bebc;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #d83f86;
+            box-shadow: 10px 10px 10px rgba(173, 18, 18, 0.12),
+10px 10px 10px rgba(86, 83, 83, 0.969),
+10px 10px 10px rgba(169, 162, 162, 0.2);
+            border-radius: 0px 0px 20px 20px;
+            color: #000;
+            padding: 20px;
+            text-align: center;
+            padding: 20px;
+            margin-right:auto;
+            margin-left:auto;
+        }
+
+        h1 {
+            text-shadow: #671629 2px 2px 3px;
+    font-size: 43px;
+        }
+
+        h2 {
+    font-size: 73px;
+    margin-bottom: 20px;
+        }
+        h3 {
+            font-size: 93px;
+        margin-bottom: 20px; 
+        margin-left: 20px; 
+        margin-top: 45px;
+        }
+        p {
+            font-size: 25px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            margin-bottom: 20px; 
+        }
+        a {
+            text-decoration: none;
+            color: #bb1d66;
+            text-shadow: #e45dc9 2px 2px 3px;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+           
+        }
+        .return {
+            font-size: 36px;  
+            color: #000;   
+            letter-spacing: 0.02em;
+            line-height: 1.5;
+            
+        }
+        @media screen and (max-width: 769px) {
+            h2 {
+    font-size: 53px;
+    margin-bottom: 20px;
+        }
+        h3 {
+        margin-top: 10px;
+        }
+        }
+
+        
+    </style>
 </head>
 <body>
-<img src="https://cs11.pikabu.ru/post_img/2020/05/13/4/1589346817291633226.png" alt="Ошибка 500">
-<p>Ошибка сервера..</p>
-<p>Почему?</p>
-<ol>
-    <li>У разработчика кривые руки :)
-    <li>Возникла системная ошибка
-    <li>Сервер упал
-</ol>
-<p>Для продолжения работы с сайтом Вы можете перейти на:</p>
-
-<ul>
-    <li><a href="www.vikyhome.com.ua/">Главную страницу сайта.</a>
-</ul>
+    <header>
+        <h1>VIKYHOME </h1>
+    </header>
+    <div class="container">
+        <h2>ПОМИЛКА СЕРВЕРА</h2>
+        <h3>500</h3>
+       <p>На сервері виникла непередбачувана помилка. Будь ласка, зачекайте, вона скоро буде виправлена.</p>
+       <p class="return">Спробуйте повернутись на <a href="https://vikyhome.com.ua/">головну сторінку</a>:)</p> 
+   </div>
 </body>
 </html>
