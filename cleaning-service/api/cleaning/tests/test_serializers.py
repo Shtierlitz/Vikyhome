@@ -1,12 +1,19 @@
-from unittest import TestCase
+import shutil
+import tempfile
+
 from PIL import Image
 from django.core.files.uploadedfile import SimpleUploadedFile
 from io import BytesIO
 
-from cleaning.models import Service, Extra
-from cleaning.serializers import ServiceSerializer, ExtraSerializer
+from django.test import override_settings, TestCase
+
+from cleaning.models import Service, Extra, Post
+from cleaning.serializers import ServiceSerializer, ExtraSerializer, PostSerializer
+
+MEDIA_ROOT = tempfile.mkdtemp()
 
 
+@override_settings(MEDIA_ROOT=MEDIA_ROOT)
 class ServiceSerializerTestCase(TestCase):
 
     def setUp(self):
@@ -29,9 +36,10 @@ class ServiceSerializerTestCase(TestCase):
         self.service = Service.objects.create(**self.service_attributes)
         self.serializer = ServiceSerializer(instance=self.service)
 
-    def tearDown(self):
-        # ваш код для удаления изображений
-        self.service.image.delete()
+    @classmethod
+    def tearDownClass(cls):
+        shutil.rmtree(MEDIA_ROOT, ignore_errors=True)  # delete the temp dir
+        super().tearDownClass()
 
     def test_contains_expected_fields(self):
         data = self.serializer.data
@@ -74,3 +82,25 @@ class ExtraSerializerTestCase(TestCase):
                 self.assertEqual(float(data[attr]), value)
             else:
                 self.assertEqual(data[attr], value)
+
+
+class PostSerializerTestCase(TestCase):
+    def setUp(self):
+        self.post_attributes = {
+            'title': 'test post title',
+            'text': 'test post text'
+        }
+
+        self.post = Post.objects.create(**self.post_attributes)
+        self.serializer = PostSerializer(instance=self.post)
+
+    def test_contains_expected_fields(self):
+        data = self.serializer.data
+
+        self.assertEqual(set(data.keys()), {'id', 'title', 'text'})
+
+    def test_post_field_content(self):
+        data = self.serializer.data
+
+        for attr, value in self.post_attributes.items():
+            self.assertEqual(data[attr], value)
