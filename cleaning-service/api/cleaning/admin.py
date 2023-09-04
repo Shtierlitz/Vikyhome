@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.utils.safestring import mark_safe
 
-from .models import Service, Extra
+from .models import Service, Extra, Post
 
 
 # Register your models here.
@@ -20,6 +20,11 @@ class ExtraAdmin(admin.ModelAdmin):
     list_display_links = ('id', 'title', 'price')
 
 
-# admin.site.register(Group, GroupAdmin)
+class PostAdmin(admin.ModelAdmin):
+    list_display = ('id', 'title', "text")
+    list_display_links = ('id', 'title')
+
+
 admin.site.register(Extra, ExtraAdmin)
 admin.site.register(Service, ServiceAdmin)
+admin.site.register(Post, PostAdmin)

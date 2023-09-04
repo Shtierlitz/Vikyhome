@@ -3,8 +3,8 @@
 from rest_framework import viewsets
 from rest_framework.permissions import IsAuthenticated, AllowAny
 
-from .models import Service, Extra
-from .serializers import ServiceSerializer, ExtraSerializer
+from .models import Service, Extra, Post
+from .serializers import ServiceSerializer, ExtraSerializer, PostSerializer
 from django.utils.decorators import method_decorator
 from django.views.decorators.cache import cache_page
 
@@ -32,3 +32,8 @@ class ServiceViewSet(CacheMixin, viewsets.ModelViewSet):
 class ExtraViewSet(CacheMixin, viewsets.ModelViewSet):
     queryset = Extra.objects.all()
     serializer_class = ExtraSerializer
+
+
+class PostViewSet(CacheMixin, viewsets.ModelViewSet):
+    queryset = Post.objects.all()
+    serializer_class = PostSerializer

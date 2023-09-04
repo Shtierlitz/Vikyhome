@@ -1,1 +1,1671 @@
-[{"model": "admin.logentry", "pk": 1, "fields": {"action_time": "2023-06-27T09:44:22.880Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Генеральне прибирання", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2023-06-27T09:44:54.852Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "Підтримуюче прибирання ( до зросту клінера)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2023-06-27T09:45:23.900Z", "user": 1, "content_type": 7, "object_id": "3", "object_repr": "Організація простору", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_time": "2023-06-27T09:45:45.708Z", "user": 1, "content_type": 7, "object_id": "4", "object_repr": "Післяремонту", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 5, "fields": {"action_time": "2023-06-27T09:46:07.460Z", "user": 1, "content_type": 7, "object_id": "5", "object_repr": "Миття вікон", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2023-06-27T09:46:26.509Z", "user": 1, "content_type": 7, "object_id": "6", "object_repr": "Переїзд", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 7, "fields": {"action_time": "2023-06-27T09:46:48.493Z", "user": 1, "content_type": 7, "object_id": "7", "object_repr": "Окреме прибирання зон", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 8, "fields": {"action_time": "2023-06-27T09:47:22.003Z", "user": 1, "content_type": 8, "object_id": "1", "object_repr": "Холодильник стандарт", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 9, "fields": {"action_time": "2023-06-27T09:47:39.082Z", "user": 1, "content_type": 8, "object_id": "2", "object_repr": "Холодильник side-by-side", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2023-06-27T09:47:56.586Z", "user": 1, "content_type": 8, "object_id": "3", "object_repr": "Мікрохвильова піч", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 11, "fields": {"action_time": "2023-06-27T09:48:13.220Z", "user": 1, "content_type": 8, "object_id": "4", "object_repr": "Духова щафа", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 12, "fields": {"action_time": "2023-06-27T09:48:29.803Z", "user": 1, "content_type": 8, "object_id": "5", "object_repr": "Варильна поверхня (індукційна)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 13, "fields": {"action_time": "2023-06-27T09:48:47.682Z", "user": 1, "content_type": 8, "object_id": "6", "object_repr": "Варильна поверхня (газова)", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 14, "fields": {"action_time": "2023-06-27T09:49:13.649Z", "user": 1, "content_type": 8, "object_id": "7", "object_repr": "Посудомийна машина", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 15, "fields": {"action_time": "2023-06-27T09:49:27.122Z", "user": 1, "content_type": 8, "object_id": "8", "object_repr": "Пральна машина", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 16, "fields": {"action_time": "2023-06-27T09:50:04.739Z", "user": 1, "content_type": 8, "object_id": "9", "object_repr": "Прасування тюлі/штори", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 17, "fields": {"action_time": "2023-06-27T09:50:24.106Z", "user": 1, "content_type": 8, "object_id": "10", "object_repr": "Прасування одягу", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 18, "fields": {"action_time": "2023-06-27T09:50:41.829Z", "user": 1, "content_type": 8, "object_id": "11", "object_repr": "Кавомашина", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 19, "fields": {"action_time": "2023-06-27T09:50:57.955Z", "user": 1, "content_type": 8, "object_id": "12", "object_repr": "Мультиварка", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 20, "fields": {"action_time": "2023-06-27T09:51:15.330Z", "user": 1, "content_type": 8, "object_id": "13", "object_repr": "Миття посуду", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 21, "fields": {"action_time": "2023-06-27T09:51:28.715Z", "user": 1, "content_type": 8, "object_id": "10", "object_repr": "Прасування одягу", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 22, "fields": {"action_time": "2023-07-19T14:42:38.669Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Генеральне прибирання", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0438\\u0442\\u0443\\u043b\\u044c\\u043d\\u0430 \\u043a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\"]}}]"}}, {"model": "admin.logentry", "pk": 23, "fields": {"action_time": "2023-07-19T14:42:53.510Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "Підтримуюче прибирання ( до зросту клінера)", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0438\\u0442\\u0443\\u043b\\u044c\\u043d\\u0430 \\u043a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\"]}}]"}}, {"model": "admin.logentry", "pk": 24, "fields": {"action_time": "2023-07-19T14:43:02.769Z", "user": 1, "content_type": 7, "object_id": "3", "object_repr": "Організація простору", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0438\\u0442\\u0443\\u043b\\u044c\\u043d\\u0430 \\u043a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\"]}}]"}}, {"model": "admin.logentry", "pk": 25, "fields": {"action_time": "2023-07-19T14:43:16.360Z", "user": 1, "content_type": 7, "object_id": "4", "object_repr": "Післяремонту", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0438\\u0442\\u0443\\u043b\\u044c\\u043d\\u0430 \\u043a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\"]}}]"}}, {"model": "admin.logentry", "pk": 26, "fields": {"action_time": "2023-07-19T14:43:26.969Z", "user": 1, "content_type": 7, "object_id": "6", "object_repr": "Переїзд", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0438\\u0442\\u0443\\u043b\\u044c\\u043d\\u0430 \\u043a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\"]}}]"}}, {"model": "admin.logentry", "pk": 27, "fields": {"action_time": "2023-07-19T14:43:45.798Z", "user": 1, "content_type": 7, "object_id": "7", "object_repr": "Окреме прибирання зон", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0438\\u0442\\u0443\\u043b\\u044c\\u043d\\u0430 \\u043a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\"]}}]"}}, {"model": "admin.logentry", "pk": 28, "fields": {"action_time": "2023-07-19T14:44:34.771Z", "user": 1, "content_type": 7, "object_id": "8", "object_repr": "Ритуальні послуги", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 29, "fields": {"action_time": "2023-07-19T14:45:06.408Z", "user": 1, "content_type": 8, "object_id": "14", "object_repr": "Миття вікон", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 30, "fields": {"action_time": "2023-07-19T14:45:16.661Z", "user": 1, "content_type": 7, "object_id": "5", "object_repr": "Миття вікон", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 31, "fields": {"action_time": "2023-07-19T15:22:13.962Z", "user": 1, "content_type": 8, "object_id": "15", "object_repr": "Диван двомісний", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 32, "fields": {"action_time": "2023-07-19T15:22:36.298Z", "user": 1, "content_type": 8, "object_id": "16", "object_repr": "Диван тримісний", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 33, "fields": {"action_time": "2023-07-19T15:22:53.359Z", "user": 1, "content_type": 8, "object_id": "17", "object_repr": "кутовий диван 3 місний", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 34, "fields": {"action_time": "2023-07-19T15:23:04.229Z", "user": 1, "content_type": 8, "object_id": "17", "object_repr": "Кутовий диван 3 місний", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430 \\u0434\\u043e\\u0434\\u0430\\u0442\\u043a\\u043e\\u0432\\u043e\\u0457 \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 35, "fields": {"action_time": "2023-07-19T15:25:16.192Z", "user": 1, "content_type": 8, "object_id": "18", "object_repr": "Кутовий диван 4і більше місць", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 36, "fields": {"action_time": "2023-07-19T15:25:41.604Z", "user": 1, "content_type": 8, "object_id": "19", "object_repr": "Матрас 90/200", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 37, "fields": {"action_time": "2023-07-19T15:26:03.007Z", "user": 1, "content_type": 8, "object_id": "20", "object_repr": "Матрас 150/200", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 38, "fields": {"action_time": "2023-07-19T15:26:27.801Z", "user": 1, "content_type": 8, "object_id": "19", "object_repr": "Матрас 90/200 з обох боків", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430 \\u0434\\u043e\\u0434\\u0430\\u0442\\u043a\\u043e\\u0432\\u043e\\u0457 \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 39, "fields": {"action_time": "2023-07-19T15:26:31.677Z", "user": 1, "content_type": 8, "object_id": "20", "object_repr": "Матрас 150/200 з обох боків", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430 \\u0434\\u043e\\u0434\\u0430\\u0442\\u043a\\u043e\\u0432\\u043e\\u0457 \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 40, "fields": {"action_time": "2023-07-19T15:26:53.285Z", "user": 1, "content_type": 8, "object_id": "21", "object_repr": "Матрас 180/200 (220) з обох сторін", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 41, "fields": {"action_time": "2023-07-19T15:27:20.830Z", "user": 1, "content_type": 8, "object_id": "21", "object_repr": "Матрас 180/200 (220) з обох сторін", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 42, "fields": {"action_time": "2023-07-19T15:27:24.874Z", "user": 1, "content_type": 8, "object_id": "20", "object_repr": "Матрас 150/200 з обох боків", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 43, "fields": {"action_time": "2023-07-19T15:27:27.838Z", "user": 1, "content_type": 8, "object_id": "19", "object_repr": "Матрас 90/200 з обох боків", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 44, "fields": {"action_time": "2023-07-19T15:27:31.194Z", "user": 1, "content_type": 8, "object_id": "18", "object_repr": "Кутовий диван 4і більше місць", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 45, "fields": {"action_time": "2023-07-19T15:27:34.685Z", "user": 1, "content_type": 8, "object_id": "17", "object_repr": "Кутовий диван 3 місний", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 46, "fields": {"action_time": "2023-07-19T15:27:37.949Z", "user": 1, "content_type": 8, "object_id": "17", "object_repr": "Кутовий диван 3 місний", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 47, "fields": {"action_time": "2023-07-19T15:27:40.852Z", "user": 1, "content_type": 8, "object_id": "15", "object_repr": "Диван двомісний", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 48, "fields": {"action_time": "2023-07-19T15:27:44.513Z", "user": 1, "content_type": 8, "object_id": "16", "object_repr": "Диван тримісний", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 49, "fields": {"action_time": "2023-07-19T15:28:06.200Z", "user": 1, "content_type": 8, "object_id": "22", "object_repr": "Розкладна частина", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 50, "fields": {"action_time": "2023-07-19T15:28:29.312Z", "user": 1, "content_type": 8, "object_id": "23", "object_repr": "Подушки", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 51, "fields": {"action_time": "2023-08-12T11:23:07.301Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Генеральне прибирання", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u043d\\u044f \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 52, "fields": {"action_time": "2023-08-12T11:31:33.289Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Генеральне прибирання", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u043d\\u044f \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 53, "fields": {"action_time": "2023-08-12T13:46:05.482Z", "user": 1, "content_type": 7, "object_id": "9", "object_repr": "Тестова послуга", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 54, "fields": {"action_time": "2023-08-12T13:47:21.126Z", "user": 1, "content_type": 7, "object_id": "9", "object_repr": "Тестова послуга", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 55, "fields": {"action_time": "2023-08-12T13:48:37.618Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Генеральне прибирання", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 56, "fields": {"action_time": "2023-08-12T13:48:42.400Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Генеральне прибирання", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 57, "fields": {"action_time": "2023-08-12T13:49:11.283Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Генеральне прибирання", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 58, "fields": {"action_time": "2023-08-12T13:49:27.218Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Генеральне прибирання", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 59, "fields": {"action_time": "2023-08-12T13:49:42.695Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Генеральне прибирання", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 60, "fields": {"action_time": "2023-08-12T13:50:02.479Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "Підтримуюче прибирання (до зросту клінера)", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430 \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 61, "fields": {"action_time": "2023-08-12T13:50:26.623Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "Підтримуюче прибирання (до зросту клінера)", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 62, "fields": {"action_time": "2023-08-12T13:50:36.407Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "Підтримуюче прибирання (до зросту клінера)", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 63, "fields": {"action_time": "2023-08-12T13:50:41.518Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "Підтримуюче прибирання (до зросту клінера)", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 64, "fields": {"action_time": "2023-08-12T13:51:22.082Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "Підтримуюче прибирання                 (до зросту клінера)", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430 \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 65, "fields": {"action_time": "2023-08-16T11:10:50.021Z", "user": 1, "content_type": 8, "object_id": "18", "object_repr": "Кутовий диван 4 і більше місць", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430 \\u0434\\u043e\\u0434\\u0430\\u0442\\u043a\\u043e\\u0432\\u043e\\u0457 \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 66, "fields": {"action_time": "2023-08-16T11:11:42.448Z", "user": 1, "content_type": 8, "object_id": "4", "object_repr": "Духова шафа", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430 \\u0434\\u043e\\u0434\\u0430\\u0442\\u043a\\u043e\\u0432\\u043e\\u0457 \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"}}, {"model": "admin.logentry", "pk": 67, "fields": {"action_time": "2023-08-16T11:53:37.382Z", "user": 1, "content_type": 7, "object_id": "3", "object_repr": "Організація простору", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0438\\u0442\\u0443\\u043b\\u044c\\u043d\\u0430 \\u043a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\"]}}]"}}, {"model": "admin.logentry", "pk": 68, "fields": {"action_time": "2023-08-16T11:53:53.174Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "Підтримуюче прибирання                 (до зросту клінера)", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0438\\u0442\\u0443\\u043b\\u044c\\u043d\\u0430 \\u043a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\"]}}]"}}, {"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add user", "content_type": 4, "codename": "add_user"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change user", "content_type": 4, "codename": "change_user"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete user", "content_type": 4, "codename": "delete_user"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view user", "content_type": 4, "codename": "view_user"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add content type", "content_type": 5, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change content type", "content_type": 5, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete content type", "content_type": 5, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view content type", "content_type": 5, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add session", "content_type": 6, "codename": "add_session"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change session", "content_type": 6, "codename": "change_session"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete session", "content_type": 6, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view session", "content_type": 6, "codename": "view_session"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add Послуга", "content_type": 7, "codename": "add_service"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change Послуга", "content_type": 7, "codename": "change_service"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete Послуга", "content_type": 7, "codename": "delete_service"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view Послуга", "content_type": 7, "codename": "view_service"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add Додаткова послуга", "content_type": 8, "codename": "add_extra"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change Додаткова послуга", "content_type": 8, "codename": "change_extra"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete Додаткова послуга", "content_type": 8, "codename": "delete_extra"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view Додаткова послуга", "content_type": 8, "codename": "view_extra"}}, {"model": "auth.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$600000$ZXHX1enHFQxuxGfTKigKno$WR3RMjWkk7YfdRR3KPViMyw97urF+9mytWbQ6EHHWvM=", "last_login": "2023-08-12T11:22:52.795Z", "is_superuser": true, "username": "Shtierlitz", "first_name": "", "last_name": "", "email": "rollbar1990@gmail.com", "is_staff": true, "is_active": true, "date_joined": "2023-06-27T09:43:02.437Z", "groups": [], "user_permissions": []}}, {"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "auth", "model": "user"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "cleaning", "model": "service"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "cleaning", "model": "extra"}}, {"model": "sessions.session", "pk": "0nem9nnm3fn1v2lrd6uzs6jh4d9qsx50", "fields": {"session_data": ".eJxVjMsOwiAQRf-FtSEMj0JduvcbmhkYpGogKe3K-O_apAvd3nPOfYkJt7VMW-dlmpM4CxCn340wPrjuIN2x3pqMra7LTHJX5EG7vLbEz8vh_h0U7OVbD8hgw-hwzDEBkI6Kgs8mekXWqkEHb61z2niHwMTeGBcGkwMQKwQl3h_P-DcF:1qE5EI:VlSNDoD74QL_Rxv7y2DSryAnjQngAhzsceUKypqSvxc", "expire_date": "2023-07-11T09:43:22.362Z"}}, {"model": "sessions.session", "pk": "fq4egxd9yv9a5j41whxcfcj5491pae39", "fields": {"session_data": ".eJxVjMsOwiAQRf-FtSEMj0JduvcbmhkYpGogKe3K-O_apAvd3nPOfYkJt7VMW-dlmpM4CxCn340wPrjuIN2x3pqMra7LTHJX5EG7vLbEz8vh_h0U7OVbD8hgw-hwzDEBkI6Kgs8mekXWqkEHb61z2niHwMTeGBcGkwMQKwQl3h_P-DcF:1qUmho:MinpNtWTGnogTkrBrChO7ZDhASlll3_Naf3nRQ040zQ", "expire_date": "2023-08-26T11:22:52.801Z"}}, {"model": "sessions.session", "pk": "sq2hhcf7wbbqrc2cnb3ecom1l7f2v54q", "fields": {"session_data": ".eJxVjMsOwiAQRf-FtSEMj0JduvcbmhkYpGogKe3K-O_apAvd3nPOfYkJt7VMW-dlmpM4CxCn340wPrjuIN2x3pqMra7LTHJX5EG7vLbEz8vh_h0U7OVbD8hgw-hwzDEBkI6Kgs8mekXWqkEHb61z2niHwMTeGBcGkwMQKwQl3h_P-DcF:1qM8ML:H4kQrbAHHFzPra9LGInWYmCh5acdc9_4ubxI3d5j0Fg", "expire_date": "2023-08-02T14:40:57.798Z"}}, {"model": "cleaning.service", "pk": 1, "fields": {"title": "Генеральне прибирання", "description": "У КІМНАТАХ\r\n• знепилювання стін і стель\r\n• очищення підвіконь\r\n• суха чистка килимів та меблів\r\n• сухе і вологе прибирання підлоги, плінтусів\r\n• очищення світильників, люстр та бра\r\n• вологе очищення радіаторів\r\n• очищення дзеркал і всіх скляних поверхонь\r\nвологе прибирання дверних прорізів і дверей\r\n• очищення і дезинфекція дверних ручок і вимикачів, розеток\r\n\r\nУ САНВУЗЛІ\r\n• видаляємо вапняний наліт\r\n• очищення і дезинфекція всієї сантехніки, змішувачів\r\n• очищення плитки (стін, підлоги)\r\n• очищення всіх доступних поверхонь\r\n• очищення дзеркальних і скляних поверхонь\r\n• очищення вентиляційних решіток\r\n• дезінфекція розеток, вимикачів\r\nвідсуваємо пральну машинку і очищаємо шланг\r\n\r\nНА КУХНІ\r\n• видаляємо вапняний наліт на раковині, змішувачі\r\n• очищення кухні зверху і знизу (під кухонною гарнітурою, знімаємо нижній бортик, якщо це можливо)\r\n• зовнішня очистка побутової техніки\r\n• очищення предметів меблів зовні\r\n• очищення стільниці і зовнішніх фасадів кухні з двох сторін\r\n• глибоке очищення плитки і швів (кухонний фартух і підлогу)\r\n• відсуваємо холодильник\r\n• миємо посуд в раковині (до 20 хвилин безкоштовно)\r\n• дезінфекція розеток, вимикачів, ручок\r\n• очищення світильників\r\n• очищення дверей і дверних коробок", "price": "75.00", "price_description": "грн/м²", "image": "media/Vikyhome/general_uexavw"}}, {"model": "cleaning.service", "pk": 2, "fields": {"title": "Підтримуюче прибирання                 (до зросту клінера)", "description": "У КІМНАТАХ\r\n• протираємо всі відкриті полиці та дзеркала \r\n• суха чистка килимів \r\n• сухе і вологе прибирання підлоги, плінтусів \r\n• миємо вимикачі, розетки, міжкімнатні двері та ручки\r\n• речі складаємо в одному місці\r\n\r\nУ САНВУЗЛI\r\n• миємо плитку \r\n• миємо раковину/ змішувачі \r\n• миємо ванну/ душову кабіну\r\n• протираємо дзеркала і скляні поверхні\r\n• протираємо пральну машину \r\n• миємо та дищенфікуємо унітаз\r\n• миємо підлогу\r\n\r\nНА КУХНІ \r\n• миємо фасади\r\n•протираємо витяжку ззовні\r\n• миємо кухонний фартух, протираємо стільницю\r\n• миємо раковину\r\n• протираємо побутову техніку ззовні \r\n• миємо місце для сміття/ виносимо сміття\r\n• миємо підлогу \r\n\r\nУ КОРИДОРІ\r\n• протираємо дзеркала та поверхні\r\n• складаємо речі ( сезонні) та взуття \r\n• миємо підлогу", "price": "25.00", "price_description": "грн/м²", "image": "media/Vikyhome/holding_on3_g1fykb"}}, {"model": "cleaning.service", "pk": 3, "fields": {"title": "Організація простору", "description": "Організація простру - це індивідуально підібрана система під кожну зону вашої оселі. \r\nЦе не про чистоту, це про порядок, категоризацію та функціональність.\r\nРечі не будуть губитися і те, що сховали після зміну сезону - одразу знайдете на верхніх полицях шафи.\r\n\r\nЗ нами легко та просто! З нами  зручно та практично! \r\n\r\nПідбираю для вас усе та формую під ваш запит порядок у вашому будинку.", "price": "500.00", "price_description": "грн/година", "image": "media/Vikyhome/space_organize2_le6uch"}}, {"model": "cleaning.service", "pk": 4, "fields": {"title": "Післяремонту", "description": "", "price": "100.00", "price_description": "грн/м²", "image": "media/Vikyhome/after_fix_vebzx1"}}, {"model": "cleaning.service", "pk": 6, "fields": {"title": "Переїзд", "description": "", "price": "350.00", "price_description": "грн/година", "image": "media/Vikyhome/remove_y4uirl"}}, {"model": "cleaning.service", "pk": 7, "fields": {"title": "Окреме прибирання зон", "description": "", "price": "2000.00", "price_description": "грн", "image": "media/Vikyhome/individual_areas_amjwlq"}}, {"model": "cleaning.service", "pk": 8, "fields": {"title": "Ритуальні послуги", "description": "Зніміть з ваших плечей тягар непотрібних клопотів, залишаючи в душі головне – вічну любов до того, хто назавжди залишиться нескінченно близьким.\r\n\r\nПрофесійне прибирання могил:\r\n\r\nпрополювання бур’янів;\r\nстрижка газонів;\r\nоновлення фотографії;\r\nприбирання листя, гілок, будь-якого іншого сміття;\r\nполив рослин та квітів;\r\nочищення та миття огорожі та пам’ятників;\r\nрізні види озеленення;\r\nобробка надгробків вологостійкими складами;\r\nоновлення декоративних букетів та вінків;\r\nневеликий ремонт пам’ятника, лавки у вигляді фарбування", "price": "0.00", "price_description": "Iндивiдуально", "image": "media/Vikyhome/death_service_owcqba"}}, {"model": "cleaning.extra", "pk": 1, "fields": {"title": "Холодильник стандарт", "price": "500.00", "price_description": "грн"}}, {"model": "cleaning.extra", "pk": 2, "fields": {"title": "Холодильник side-by-side", "price": "700.00", "price_description": "грн"}}, {"model": "cleaning.extra", "pk": 3, "fields": {"title": "Мікрохвильова піч", "price": "150.00", "price_description": "грн"}}, {"model": "cleaning.extra", "pk": 4, "fields": {"title": "Духова шафа", "price": "500.00", "price_description": "грн"}}, {"model": "cleaning.extra", "pk": 5, "fields": {"title": "Варильна поверхня (індукційна)", "price": "200.00", "price_description": "грн"}}, {"model": "cleaning.extra", "pk": 6, "fields": {"title": "Варильна поверхня (газова)", "price": "350.00", "price_description": "грн"}}, {"model": "cleaning.extra", "pk": 7, "fields": {"title": "Посудомийна машина", "price": "350.00", "price_description": "грн"}}, {"model": "cleaning.extra", "pk": 8, "fields": {"title": "Пральна машина", "price": "300.00", "price_description": "грн"}}, {"model": "cleaning.extra", "pk": 9, "fields": {"title": "Прасування тюлі/штори", "price": "150.00", "price_description": "грн/комплект"}}, {"model": "cleaning.extra", "pk": 10, "fields": {"title": "Прасування одягу", "price": "100.00", "price_description": "грн/година"}}, {"model": "cleaning.extra", "pk": 11, "fields": {"title": "Кавомашина", "price": "150.00", "price_description": "грн"}}, {"model": "cleaning.extra", "pk": 12, "fields": {"title": "Мультиварка", "price": "200.00", "price_description": "грн"}}, {"model": "cleaning.extra", "pk": 13, "fields": {"title": "Миття посуду", "price": "100.00", "price_description": "грн/година"}}, {"model": "cleaning.extra", "pk": 14, "fields": {"title": "Миття вікон", "price": "180.00", "price_description": "грн/м²"}}, {"model": "cleaning.extra", "pk": 15, "fields": {"title": "Диван двомісний", "price": "1000.00", "price_description": "грн/шт"}}, {"model": "cleaning.extra", "pk": 16, "fields": {"title": "Диван тримісний", "price": "1200.00", "price_description": "грн/шт"}}, {"model": "cleaning.extra", "pk": 17, "fields": {"title": "Кутовий диван 3 місний", "price": "1600.00", "price_description": "грн/шт"}}, {"model": "cleaning.extra", "pk": 18, "fields": {"title": "Кутовий диван 4 і більше місць", "price": "1800.00", "price_description": "грн/шт"}}, {"model": "cleaning.extra", "pk": 19, "fields": {"title": "Матрас 90/200 з обох боків", "price": "900.00", "price_description": "грн/шт"}}, {"model": "cleaning.extra", "pk": 20, "fields": {"title": "Матрас 150/200 з обох боків", "price": "1600.00", "price_description": "грн/шт"}}, {"model": "cleaning.extra", "pk": 21, "fields": {"title": "Матрас 180/200 (220) з обох сторін", "price": "1200.00", "price_description": "грн/шт"}}, {"model": "cleaning.extra", "pk": 22, "fields": {"title": "Розкладна частина", "price": "250.00", "price_description": "грн/шт"}}, {"model": "cleaning.extra", "pk": 23, "fields": {"title": "Подушки", "price": "50.00", "price_description": "грн/шт"}}]
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-06-27T09:44:22.880Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Генеральне прибирання",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-06-27T09:44:54.852Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Підтримуюче прибирання ( до зросту клінера)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-06-27T09:45:23.900Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Організація простору",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-06-27T09:45:45.708Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Післяремонту",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-06-27T09:46:07.460Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Миття вікон",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-06-27T09:46:26.509Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Переїзд",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-06-27T09:46:48.493Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Окреме прибирання зон",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-06-27T09:47:22.003Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Холодильник стандарт",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-06-27T09:47:39.082Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Холодильник side-by-side",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-06-27T09:47:56.586Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Мікрохвильова піч",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-06-27T09:48:13.220Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Духова щафа",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-06-27T09:48:29.803Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Варильна поверхня (індукційна)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-06-27T09:48:47.682Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Варильна поверхня (газова)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-06-27T09:49:13.649Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Посудомийна машина",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-06-27T09:49:27.122Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "Пральна машина",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-06-27T09:50:04.739Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "Прасування тюлі/штори",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-06-27T09:50:24.106Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Прасування одягу",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-06-27T09:50:41.829Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "Кавомашина",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-06-27T09:50:57.955Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "Мультиварка",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-06-27T09:51:15.330Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "Миття посуду",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2023-06-27T09:51:28.715Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Прасування одягу",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2023-07-19T14:42:38.669Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Генеральне прибирання",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0438\\u0442\\u0443\\u043b\\u044c\\u043d\\u0430 \\u043a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2023-07-19T14:42:53.510Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Підтримуюче прибирання ( до зросту клінера)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0438\\u0442\\u0443\\u043b\\u044c\\u043d\\u0430 \\u043a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2023-07-19T14:43:02.769Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Організація простору",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0438\\u0442\\u0443\\u043b\\u044c\\u043d\\u0430 \\u043a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2023-07-19T14:43:16.360Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Післяремонту",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0438\\u0442\\u0443\\u043b\\u044c\\u043d\\u0430 \\u043a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2023-07-19T14:43:26.969Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Переїзд",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0438\\u0442\\u0443\\u043b\\u044c\\u043d\\u0430 \\u043a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2023-07-19T14:43:45.798Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "Окреме прибирання зон",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0438\\u0442\\u0443\\u043b\\u044c\\u043d\\u0430 \\u043a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2023-07-19T14:44:34.771Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Ритуальні послуги",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2023-07-19T14:45:06.408Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "14",
+      "object_repr": "Миття вікон",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2023-07-19T14:45:16.661Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Миття вікон",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2023-07-19T15:22:13.962Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "15",
+      "object_repr": "Диван двомісний",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2023-07-19T15:22:36.298Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "16",
+      "object_repr": "Диван тримісний",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2023-07-19T15:22:53.359Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "17",
+      "object_repr": "кутовий диван 3 місний",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2023-07-19T15:23:04.229Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "17",
+      "object_repr": "Кутовий диван 3 місний",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430 \\u0434\\u043e\\u0434\\u0430\\u0442\\u043a\\u043e\\u0432\\u043e\\u0457 \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2023-07-19T15:25:16.192Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "18",
+      "object_repr": "Кутовий диван 4і більше місць",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2023-07-19T15:25:41.604Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "19",
+      "object_repr": "Матрас 90/200",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2023-07-19T15:26:03.007Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "20",
+      "object_repr": "Матрас 150/200",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2023-07-19T15:26:27.801Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "19",
+      "object_repr": "Матрас 90/200 з обох боків",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430 \\u0434\\u043e\\u0434\\u0430\\u0442\\u043a\\u043e\\u0432\\u043e\\u0457 \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2023-07-19T15:26:31.677Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "20",
+      "object_repr": "Матрас 150/200 з обох боків",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430 \\u0434\\u043e\\u0434\\u0430\\u0442\\u043a\\u043e\\u0432\\u043e\\u0457 \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2023-07-19T15:26:53.285Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "21",
+      "object_repr": "Матрас 180/200 (220) з обох сторін",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2023-07-19T15:27:20.830Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "21",
+      "object_repr": "Матрас 180/200 (220) з обох сторін",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2023-07-19T15:27:24.874Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "20",
+      "object_repr": "Матрас 150/200 з обох боків",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2023-07-19T15:27:27.838Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "19",
+      "object_repr": "Матрас 90/200 з обох боків",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2023-07-19T15:27:31.194Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "18",
+      "object_repr": "Кутовий диван 4і більше місць",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2023-07-19T15:27:34.685Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "17",
+      "object_repr": "Кутовий диван 3 місний",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2023-07-19T15:27:37.949Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "17",
+      "object_repr": "Кутовий диван 3 місний",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2023-07-19T15:27:40.852Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "15",
+      "object_repr": "Диван двомісний",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2023-07-19T15:27:44.513Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "16",
+      "object_repr": "Диван тримісний",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2023-07-19T15:28:06.200Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "22",
+      "object_repr": "Розкладна частина",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2023-07-19T15:28:29.312Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "23",
+      "object_repr": "Подушки",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2023-08-12T11:23:07.301Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Генеральне прибирання",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u043d\\u044f \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2023-08-12T11:31:33.289Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Генеральне прибирання",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u043d\\u044f \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2023-08-12T13:46:05.482Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Тестова послуга",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2023-08-12T13:47:21.126Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Тестова послуга",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2023-08-12T13:48:37.618Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Генеральне прибирання",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2023-08-12T13:48:42.400Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Генеральне прибирання",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2023-08-12T13:49:11.283Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Генеральне прибирання",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2023-08-12T13:49:27.218Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Генеральне прибирання",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2023-08-12T13:49:42.695Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Генеральне прибирання",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0435\\u0444i\\u043a\\u0441 \\u0446i\\u043d\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2023-08-12T13:50:02.479Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Підтримуюче прибирання (до зросту клінера)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430 \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2023-08-12T13:50:26.623Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Підтримуюче прибирання (до зросту клінера)",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2023-08-12T13:50:36.407Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Підтримуюче прибирання (до зросту клінера)",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2023-08-12T13:50:41.518Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Підтримуюче прибирання (до зросту клінера)",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2023-08-12T13:51:22.082Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Підтримуюче прибирання                 (до зросту клінера)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430 \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2023-08-16T11:10:50.021Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "18",
+      "object_repr": "Кутовий диван 4 і більше місць",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430 \\u0434\\u043e\\u0434\\u0430\\u0442\\u043a\\u043e\\u0432\\u043e\\u0457 \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2023-08-16T11:11:42.448Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Духова шафа",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0437\\u0432\\u0430 \\u0434\\u043e\\u0434\\u0430\\u0442\\u043a\\u043e\\u0432\\u043e\\u0457 \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2023-08-16T11:53:37.382Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Організація простору",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0438\\u0442\\u0443\\u043b\\u044c\\u043d\\u0430 \\u043a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2023-08-16T11:53:53.174Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Підтримуюче прибирання                 (до зросту клінера)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0422\\u0438\\u0442\\u0443\\u043b\\u044c\\u043d\\u0430 \\u043a\\u0430\\u0440\\u0442\\u0438\\u043d\\u043a\\u0430\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2023-08-18T12:56:27.742Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Підтримуюче прибирання                 (до зросту клінера)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u043d\\u044f \\u043f\\u043e\\u0441\\u043b\\u0443\\u0433\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2023-09-04T11:34:44.056Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Генеральне прибирання",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2023-09-04T11:36:40.967Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Організація простору",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Послуга",
+      "content_type": 7,
+      "codename": "add_service"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Послуга",
+      "content_type": 7,
+      "codename": "change_service"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Послуга",
+      "content_type": 7,
+      "codename": "delete_service"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Послуга",
+      "content_type": 7,
+      "codename": "view_service"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Додаткова послуга",
+      "content_type": 8,
+      "codename": "add_extra"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Додаткова послуга",
+      "content_type": 8,
+      "codename": "change_extra"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Додаткова послуга",
+      "content_type": 8,
+      "codename": "delete_extra"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Додаткова послуга",
+      "content_type": 8,
+      "codename": "view_extra"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Коментарiй",
+      "content_type": 9,
+      "codename": "add_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Коментарiй",
+      "content_type": 9,
+      "codename": "change_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Коментарiй",
+      "content_type": 9,
+      "codename": "delete_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Коментарiй",
+      "content_type": 9,
+      "codename": "view_post"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$ZXHX1enHFQxuxGfTKigKno$WR3RMjWkk7YfdRR3KPViMyw97urF+9mytWbQ6EHHWvM=",
+      "last_login": "2023-09-04T11:32:21.616Z",
+      "is_superuser": true,
+      "username": "Shtierlitz",
+      "first_name": "",
+      "last_name": "",
+      "email": "rollbar1990@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-06-27T09:43:02.437Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "cleaning",
+      "model": "service"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "cleaning",
+      "model": "extra"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "cleaning",
+      "model": "post"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "0nem9nnm3fn1v2lrd6uzs6jh4d9qsx50",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSEMj0JduvcbmhkYpGogKe3K-O_apAvd3nPOfYkJt7VMW-dlmpM4CxCn340wPrjuIN2x3pqMra7LTHJX5EG7vLbEz8vh_h0U7OVbD8hgw-hwzDEBkI6Kgs8mekXWqkEHb61z2niHwMTeGBcGkwMQKwQl3h_P-DcF:1qE5EI:VlSNDoD74QL_Rxv7y2DSryAnjQngAhzsceUKypqSvxc",
+      "expire_date": "2023-07-11T09:43:22.362Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "fq4egxd9yv9a5j41whxcfcj5491pae39",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSEMj0JduvcbmhkYpGogKe3K-O_apAvd3nPOfYkJt7VMW-dlmpM4CxCn340wPrjuIN2x3pqMra7LTHJX5EG7vLbEz8vh_h0U7OVbD8hgw-hwzDEBkI6Kgs8mekXWqkEHb61z2niHwMTeGBcGkwMQKwQl3h_P-DcF:1qUmho:MinpNtWTGnogTkrBrChO7ZDhASlll3_Naf3nRQ040zQ",
+      "expire_date": "2023-08-26T11:22:52.801Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "hne3156xkei244qamdxnx92h8nq0a899",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSEMj0JduvcbmhkYpGogKe3K-O_apAvd3nPOfYkJt7VMW-dlmpM4CxCn340wPrjuIN2x3pqMra7LTHJX5EG7vLbEz8vh_h0U7OVbD8hgw-hwzDEBkI6Kgs8mekXWqkEHb61z2niHwMTeGBcGkwMQKwQl3h_P-DcF:1qd7ob:nZzS-MMKUkk9y-YFcqk0z38ac6pDXuL1tHZOqFDnFzk",
+      "expire_date": "2023-09-18T11:32:21.622Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "sq2hhcf7wbbqrc2cnb3ecom1l7f2v54q",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSEMj0JduvcbmhkYpGogKe3K-O_apAvd3nPOfYkJt7VMW-dlmpM4CxCn340wPrjuIN2x3pqMra7LTHJX5EG7vLbEz8vh_h0U7OVbD8hgw-hwzDEBkI6Kgs8mekXWqkEHb61z2niHwMTeGBcGkwMQKwQl3h_P-DcF:1qM8ML:H4kQrbAHHFzPra9LGInWYmCh5acdc9_4ubxI3d5j0Fg",
+      "expire_date": "2023-08-02T14:40:57.798Z"
+    }
+  },
+  {
+    "model": "cleaning.service",
+    "pk": 1,
+    "fields": {
+      "title": "Генеральне прибирання",
+      "description": "У КІМНАТАХ\r\n• знепилювання стін і стель\r\n• очищення підвіконь\r\n• суха чистка килимів та меблів\r\n• сухе і вологе прибирання підлоги, плінтусів\r\n• очищення світильників, люстр та бра\r\n• вологе очищення радіаторів\r\n• очищення дзеркал і всіх скляних поверхонь\r\nвологе прибирання дверних прорізів і дверей\r\n• очищення і дезинфекція дверних ручок і вимикачів, розеток\r\n\r\nУ САНВУЗЛІ\r\n• видаляємо вапняний наліт\r\n• очищення і дезинфекція всієї сантехніки, змішувачів\r\n• очищення плитки (стін, підлоги)\r\n• очищення всіх доступних поверхонь\r\n• очищення дзеркальних і скляних поверхонь\r\n• очищення вентиляційних решіток\r\n• дезінфекція розеток, вимикачів\r\nвідсуваємо пральну машинку і очищаємо шланг\r\n\r\nНА КУХНІ\r\n• видаляємо вапняний наліт на раковині, змішувачі\r\n• очищення кухні зверху і знизу (під кухонною гарнітурою, знімаємо нижній бортик, якщо це можливо)\r\n• зовнішня очистка побутової техніки\r\n• очищення предметів меблів зовні\r\n• очищення стільниці і зовнішніх фасадів кухні з двох сторін\r\n• глибоке очищення плитки і швів (кухонний фартух і підлогу)\r\n• відсуваємо холодильник\r\n• миємо посуд в раковині (до 20 хвилин безкоштовно)\r\n• дезінфекція розеток, вимикачів, ручок\r\n• очищення світильників\r\n• очищення дверей і дверних коробок",
+      "price": "75.00",
+      "price_description": "грн/м²",
+      "image": "media/Vikyhome/general_uexavw"
+    }
+  },
+  {
+    "model": "cleaning.service",
+    "pk": 2,
+    "fields": {
+      "title": "Підтримуюче прибирання                 (до зросту клінера)",
+      "description": "У КІМНАТАХ\r\n• протираємо всі відкриті полиці та дзеркала \r\n• суха чистка килимів \r\n• сухе і вологе прибирання підлоги, плінтусів \r\n• миємо вимикачі, розетки, міжкімнатні двері та ручки\r\n• речі складаємо в одному місці\r\n\r\nУ САНВУЗЛI\r\n• миємо плитку \r\n• миємо раковину/ змішувачі \r\n• миємо ванну/ душову кабіну\r\n• протираємо дзеркала і скляні поверхні\r\n• протираємо пральну машину \r\n• миємо та дизенфікуємо унітаз\r\n• миємо підлогу\r\n\r\nНА КУХНІ \r\n• миємо фасади\r\n• протираємо витяжку ззовні\r\n• миємо кухонний фартух, протираємо стільницю\r\n• миємо раковину\r\n• протираємо побутову техніку ззовні \r\n• миємо місце для сміття/ виносимо сміття\r\n• миємо підлогу \r\n\r\nУ КОРИДОРІ\r\n• протираємо дзеркала та поверхні\r\n• складаємо речі ( сезонні) та взуття \r\n• миємо підлогу",
+      "price": "25.00",
+      "price_description": "грн/м²",
+      "image": "media/Vikyhome/holding_on3_g1fykb"
+    }
+  },
+  {
+    "model": "cleaning.service",
+    "pk": 3,
+    "fields": {
+      "title": "Організація простору",
+      "description": "Організація простру - це індивідуально підібрана система під кожну зону вашої оселі. \r\nЦе не про чистоту, це про порядок, категоризацію та функціональність.\r\nРечі не будуть губитися і те, що сховали після зміну сезону - одразу знайдете на верхніх полицях шафи.\r\n\r\nЗ нами легко та просто! З нами  зручно та практично! \r\n\r\nПідбираю для вас усе та формую під ваш запит порядок у вашому будинку.",
+      "price": "500.00",
+      "price_description": "грн/година",
+      "image": "media/Vikyhome/space_organize2_le6uch"
+    }
+  },
+  {
+    "model": "cleaning.service",
+    "pk": 4,
+    "fields": {
+      "title": "Післяремонту",
+      "description": "",
+      "price": "100.00",
+      "price_description": "грн/м²",
+      "image": "media/Vikyhome/after_fix_vebzx1"
+    }
+  },
+  {
+    "model": "cleaning.service",
+    "pk": 6,
+    "fields": {
+      "title": "Переїзд",
+      "description": "",
+      "price": "350.00",
+      "price_description": "грн/година",
+      "image": "media/Vikyhome/remove_y4uirl"
+    }
+  },
+  {
+    "model": "cleaning.service",
+    "pk": 7,
+    "fields": {
+      "title": "Окреме прибирання зон",
+      "description": "",
+      "price": "2000.00",
+      "price_description": "грн",
+      "image": "media/Vikyhome/individual_areas_amjwlq"
+    }
+  },
+  {
+    "model": "cleaning.service",
+    "pk": 8,
+    "fields": {
+      "title": "Ритуальні послуги",
+      "description": "Зніміть з ваших плечей тягар непотрібних клопотів, залишаючи в душі головне – вічну любов до того, хто назавжди залишиться нескінченно близьким.\r\n\r\nПрофесійне прибирання могил:\r\n\r\nпрополювання бур’янів;\r\nстрижка газонів;\r\nоновлення фотографії;\r\nприбирання листя, гілок, будь-якого іншого сміття;\r\nполив рослин та квітів;\r\nочищення та миття огорожі та пам’ятників;\r\nрізні види озеленення;\r\nобробка надгробків вологостійкими складами;\r\nоновлення декоративних букетів та вінків;\r\nневеликий ремонт пам’ятника, лавки у вигляді фарбування",
+      "price": "0.00",
+      "price_description": "Iндивiдуально",
+      "image": "media/Vikyhome/death_service_owcqba"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 1,
+    "fields": {
+      "title": "Холодильник стандарт",
+      "price": "500.00",
+      "price_description": "грн"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 2,
+    "fields": {
+      "title": "Холодильник side-by-side",
+      "price": "700.00",
+      "price_description": "грн"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 3,
+    "fields": {
+      "title": "Мікрохвильова піч",
+      "price": "150.00",
+      "price_description": "грн"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 4,
+    "fields": {
+      "title": "Духова шафа",
+      "price": "500.00",
+      "price_description": "грн"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 5,
+    "fields": {
+      "title": "Варильна поверхня (індукційна)",
+      "price": "200.00",
+      "price_description": "грн"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 6,
+    "fields": {
+      "title": "Варильна поверхня (газова)",
+      "price": "350.00",
+      "price_description": "грн"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 7,
+    "fields": {
+      "title": "Посудомийна машина",
+      "price": "350.00",
+      "price_description": "грн"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 8,
+    "fields": {
+      "title": "Пральна машина",
+      "price": "300.00",
+      "price_description": "грн"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 9,
+    "fields": {
+      "title": "Прасування тюлі/штори",
+      "price": "150.00",
+      "price_description": "грн/комплект"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 10,
+    "fields": {
+      "title": "Прасування одягу",
+      "price": "100.00",
+      "price_description": "грн/година"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 11,
+    "fields": {
+      "title": "Кавомашина",
+      "price": "150.00",
+      "price_description": "грн"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 12,
+    "fields": {
+      "title": "Мультиварка",
+      "price": "200.00",
+      "price_description": "грн"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 13,
+    "fields": {
+      "title": "Миття посуду",
+      "price": "100.00",
+      "price_description": "грн/година"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 14,
+    "fields": {
+      "title": "Миття вікон",
+      "price": "180.00",
+      "price_description": "грн/м²"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 15,
+    "fields": {
+      "title": "Диван двомісний",
+      "price": "1000.00",
+      "price_description": "грн/шт"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 16,
+    "fields": {
+      "title": "Диван тримісний",
+      "price": "1200.00",
+      "price_description": "грн/шт"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 17,
+    "fields": {
+      "title": "Кутовий диван 3 місний",
+      "price": "1600.00",
+      "price_description": "грн/шт"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 18,
+    "fields": {
+      "title": "Кутовий диван 4 і більше місць",
+      "price": "1800.00",
+      "price_description": "грн/шт"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 19,
+    "fields": {
+      "title": "Матрас 90/200 з обох боків",
+      "price": "900.00",
+      "price_description": "грн/шт"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 20,
+    "fields": {
+      "title": "Матрас 150/200 з обох боків",
+      "price": "1600.00",
+      "price_description": "грн/шт"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 21,
+    "fields": {
+      "title": "Матрас 180/200 (220) з обох сторін",
+      "price": "1200.00",
+      "price_description": "грн/шт"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 22,
+    "fields": {
+      "title": "Розкладна частина",
+      "price": "250.00",
+      "price_description": "грн/шт"
+    }
+  },
+  {
+    "model": "cleaning.extra",
+    "pk": 23,
+    "fields": {
+      "title": "Подушки",
+      "price": "50.00",
+      "price_description": "грн/шт"
+    }
+  },
+  {
+    "model": "cleaning.post",
+    "pk": 1,
+    "fields": {
+      "title": "Генеральне прибирання",
+      "text": "Найкраще генеральне прибирання у моєму житті. Я такий радий, що звернувся до таких висококваліфікованих професіоналів! Ваш будинок буде чистий і затишний завжди!"
+    }
+  },
+  {
+    "model": "cleaning.post",
+    "pk": 2,
+    "fields": {
+      "title": "Організація простору",
+      "text": "Я так вражена майстерністю та професіоналізмом персоналу, що рада рекомендувати послуги всім своїм друзям та колегам! Дякую vikyhome, що мій будинок тепер виглядає як палац Клеопатри! :)"
+    }
+  }
+]

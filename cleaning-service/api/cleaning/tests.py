@@ -5,7 +5,7 @@ from rest_framework import status
 from django.urls import reverse
 from django.contrib.auth.models import User
 from cleaning.serializers import ServiceSerializer, ExtraSerializer
-from cleaning.models import Service, Extra
+from cleaning.models import Service, Extra, Post
 from django.test import TestCase
 from PIL import Image
 from django.core.files.uploadedfile import SimpleUploadedFile
@@ -122,3 +122,25 @@ class ExtraSerializerTestCase(TestCase):
                 self.assertEqual(float(data[attr]), value)
             else:
                 self.assertEqual(data[attr], value)
+
+
+class PostViewSetTestCase(APITestCase):
+
+    def setUp(self):
+        self.user = User.objects.create_user(username='testuser', password='testpass')
+        self.post = Post.objects.create(title='Test Post', text="Abrakadabra")
+        response = self.client.post(reverse('token_obtain_pair'),
+                                    {'username': 'testuser', 'password': 'testpass'},
+                                    format='json')
+        self.token = response.data['access']
+        self.client.login(username='testuser', password='testpass')
+
+    def test_get_all_extras(self):
+        self.client.credentials(HTTP_AUTHORIZATION='Bearer ' + self.token)
+        response = self.client.get(reverse('extra-list'))
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+    def test_get_single_extra(self):
+        self.client.credentials(HTTP_AUTHORIZATION='Bearer ' + self.token)
+        response = self.client.get(reverse('extra-detail', kwargs={'pk': self.extra.pk}))
+        self.assertEqual(response.status_code, status.HTTP_200_OK)

@@ -52,13 +52,6 @@ class Service(models.Model):
 
 
 class Extra(models.Model):
-    class Type(models.TextChoices):
-        SOFA = 'sofa'
-        OTHER = 'other'
-        PILLOW = 'pillow'
-        FOLDING = 'folding'
-
-
     title = models.CharField(max_length=255, verbose_name='Назва додаткової послуги')
     price = models.DecimalField(max_digits=6, decimal_places=2, blank=True, verbose_name="Цiна додаткової послуги")
     price_description = models.CharField(max_length=20, blank=True, verbose_name='Префiкс цiни')
@@ -71,3 +64,13 @@ class Extra(models.Model):
         return self.title
 
 
+class Post(models.Model):
+    title = models.CharField(max_length=255, verbose_name='Назва посту')
+    text = models.TextField(verbose_name='Вмiст тексту поста')
+
+    class Meta:
+        verbose_name = "Коментарiй"
+        verbose_name_plural = "Коментарi"
+
+    def __str__(self):
+        return self.title
