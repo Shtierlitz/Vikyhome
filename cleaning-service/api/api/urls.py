@@ -50,10 +50,6 @@ urlpatterns = [
     path('api/swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('api/redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 
-    # path('api/custom_404/', TemplateView.as_view(template_name="cleaning/404.html")),
-    # path('api/custom_500/', TemplateView.as_view(template_name="cleaning/500.html")),
-    # path('api/custom_404/', custom_404),
-    # path('api/custom_500/', custom_500),
 ]
 
 if settings.DEBUG == False:  # только если DEBUG = False

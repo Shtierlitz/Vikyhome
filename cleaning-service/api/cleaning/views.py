@@ -9,7 +9,7 @@ from django.utils.decorators import method_decorator
 from django.views.decorators.cache import cache_page
 
 
-class CacheMixin:
+class CachePermissionMixin:
     @method_decorator(cache_page(60 * 15))
     def dispatch(self, *args, **kwargs):
         if self.request.method == 'GET':
@@ -24,16 +24,16 @@ class CacheMixin:
         return super().get_permissions()
 
 
-class ServiceViewSet(CacheMixin, viewsets.ModelViewSet):
+class ServiceViewSet(CachePermissionMixin, viewsets.ModelViewSet):
     queryset = Service.objects.all()
     serializer_class = ServiceSerializer
 
 
-class ExtraViewSet(CacheMixin, viewsets.ModelViewSet):
+class ExtraViewSet(CachePermissionMixin, viewsets.ModelViewSet):
     queryset = Extra.objects.all()
     serializer_class = ExtraSerializer
 
 
-class PostViewSet(CacheMixin, viewsets.ModelViewSet):
+class PostViewSet(CachePermissionMixin, viewsets.ModelViewSet):
     queryset = Post.objects.all()
     serializer_class = PostSerializer

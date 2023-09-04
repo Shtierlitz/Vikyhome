@@ -4,12 +4,27 @@ from django.db import models
 import cloudinary.api
 
 
+class ServiceQuerySet(models.QuerySet):
+    def delete(self):
+        for obj in self:
+            print("ServiceQuerySet delete called")
+            cloudinary.api.delete_resources(obj.image, resource_type="image", type="upload")
+        super().delete()
+
+
+class ServiceManager(models.Manager):
+    def get_queryset(self):
+        return ServiceQuerySet(self.model, using=self._db)
+
+
 class Service(models.Model):
     title = models.CharField(max_length=200, verbose_name='Назва послуги')
     description = models.TextField(blank=True, verbose_name="Описання послуги")
     price = models.DecimalField(max_digits=6, decimal_places=2, blank=True, verbose_name="Цiна послуги")
     price_description = models.CharField(max_length=20, blank=True, verbose_name='Префiкс цiни')
     image = models.ImageField(upload_to="media/Vikyhome", verbose_name="Титульна картинка", blank=True)
+
+    # image_public_id = models.CharField(max_length=255, blank=True, null=True)
 
     class Meta:
         verbose_name = "Послуга"
@@ -32,7 +47,7 @@ class Service(models.Model):
             if obj.image != self.image:
                 # удалить старое изображение с Cloudinary
                 cloudinary.api.delete_resources(obj.image, resource_type="image",
-                                                                      type="upload")
+                                                type="upload")
         except Service.DoesNotExist:
             # если объекта не существует, то это новый объект,
             # поэтому пропустите удаление
@@ -40,15 +55,7 @@ class Service(models.Model):
 
         super().save(*args, **kwargs)
 
-    #
-    def delete(self, *args, **kwargs):
-        # Получить public_id изображения из Cloudinary
-        public_id = self.image
-
-        # Удалить изображение из Cloudinary
-        cloudinary.api.delete_resources(public_id, resource_type="image", type="upload")
-
-        super().delete(*args, **kwargs)
+    objects = ServiceManager()  # удаление картинки и из cloudinary
 
 
 class Extra(models.Model):
