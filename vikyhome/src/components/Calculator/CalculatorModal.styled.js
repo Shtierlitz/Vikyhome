@@ -31,6 +31,7 @@ export const CalcBox = styled.div``;
 export const CalcTitle = styled.h2`
   color: ${(p) => p.theme.colors.titleMainColor};
   font-size: 30px;
+  
 
   @media ${DEVICE.tablet} {
   }

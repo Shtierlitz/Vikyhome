@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import Hero from '../Hero/Hero';
 import Statistics from '../Statistics/Statistics';
 import CalculateButton from '../Calculator/CalculatorBtn';
+import PostList from '../PostList/PostList';
 import Services from "../Services/Services";
 import Order from '../Order/Order';
 import PhotoGallery from '../BeforeAfter/PhotoGallery';
@@ -20,6 +21,7 @@ const MainPage = () => {
         <Statistics />
         <Services />
         <CalculateButton />
+        <PostList/>
         <Order/>
         <PhotoGallery />
         <Footer />
