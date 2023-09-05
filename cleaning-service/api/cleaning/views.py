@@ -10,7 +10,7 @@ from django.views.decorators.cache import cache_page
 
 
 class CachePermissionMixin:
-    @method_decorator(cache_page(60 * 15))
+    @method_decorator(cache_page(60 * 1))
     def dispatch(self, *args, **kwargs):
         if self.request.method == 'GET':
             return super().dispatch(*args, **kwargs)
