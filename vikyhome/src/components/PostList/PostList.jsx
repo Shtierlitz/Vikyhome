@@ -9,6 +9,7 @@ import {
   Box,
   PostBtn,
   PostContainer,
+  PaddingText
 } from "./PostList.styled";
 
 const PostList = () => {
@@ -49,7 +50,7 @@ const PostList = () => {
                   <Text>
                     {post.text.split("\n").map((line, index) => (
                       <React.Fragment key={index}>
-                        <p style={{ marginBottom: '3px' }}>{line}</p>
+                        <PaddingText>{line}</PaddingText>
                         <br />
                       </React.Fragment>
                     ))}

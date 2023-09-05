@@ -90,6 +90,7 @@ user-select: none;
 }
 @media ${DEVICE.laptop} {
   padding: 35px;
+  width: 1280px;
 }
 `;
 
@@ -127,4 +128,17 @@ export const PostContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+`;
+
+export const PaddingText = styled.p`
+
+  margin-bottom: -5px;
+
+@media ${DEVICE.tablet} {
+  margin-bottom: -5px;
+}
+@media ${DEVICE.laptop} {
+  margin-bottom: -32px;
+ 
+}
 `;
