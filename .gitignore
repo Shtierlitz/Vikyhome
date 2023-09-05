@@ -162,3 +162,4 @@ cython_debug/
 certs/
 certs.tar
 certs.tar.gz
+**/db.json
