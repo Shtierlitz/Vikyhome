@@ -49,7 +49,7 @@ const PostList = () => {
                   <Text>
                     {post.text.split("\n").map((line, index) => (
                       <React.Fragment key={index}>
-                        {line}
+                        <p style={{ marginBottom: '3px' }}>{line}</p>
                         <br />
                       </React.Fragment>
                     ))}

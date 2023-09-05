@@ -30,22 +30,22 @@ justify-content: space-around;
 export const Title = styled.h1`
  color: ${p => p.theme.colors.titleMainColor};
  text-align: center;
-  font-size: 32px;
+  font-size: 25px;
   user-select: none;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
 @media ${DEVICE.tablet} {
-  font-size: 30px;
+  font-size: 35px;
 }
 @media ${DEVICE.laptop} {
-  font-size: 37px;
+  font-size: 40px;
  
 }
 `;
 
 export const PostLi =styled.ul`
-margin-bottom: 30px;
-margin-top: 10px;
+margin-bottom: 20px;
+
 
 @media ${DEVICE.tablet} {
   margin-bottom: 10px;
@@ -58,9 +58,17 @@ margin-top: 10px;
 `;
 
 export const Text =styled.ul `
-font-size: 27px;
+font-size: 20px;
 color: ${p => p.theme.colors.titleMainColor};
 user-select: none;
+
+@media ${DEVICE.tablet} {
+    font-size: 25px;
+  
+}
+@media ${DEVICE.laptop} {
+  font-size: 30px;
+}
 `;
 
 export const List =styled.li`
@@ -74,8 +82,15 @@ text-align: left;
 border: 7px solid ${p => p.theme.colors.colorPink};
 border-radius: 20px;
 margin-bottom: 20px;
-padding: 35px;
+padding: 15px;
 user-select: none;
+
+@media ${DEVICE.tablet} {
+  padding: 20px;
+}
+@media ${DEVICE.laptop} {
+  padding: 35px;
+}
 `;
 
 export const PostBtn = styled.button`
