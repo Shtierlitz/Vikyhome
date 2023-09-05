@@ -22,7 +22,8 @@ export const Container = styled.div`
   background-color: ${(p) => p.theme.colors.colorPink};
   overflow: auto;
   position: relative;
-
+  border: 5px solid #8d8d8dac;
+border-radius: 20px;
   padding: 10px;
 `;
 

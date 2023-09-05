@@ -92,6 +92,8 @@ export const ModalContainer = styled.div`
   overflow: auto; 
   padding: 10px; 
   text-align: start;
+  border: 5px solid #8d8d8dac;
+border-radius: 20px;
 
   @media ${DEVICE.tablet} {
     max-width: 1000px;

@@ -20,6 +20,8 @@ max-height: 800px;
 position: relative;
 background-color:  ${p => p.theme.colors.colorPink};
 overflow: auto;
+border: 5px solid #8d8d8dac;
+border-radius: 20px;
 
 `;
 export const ModalBox =styled.div`
