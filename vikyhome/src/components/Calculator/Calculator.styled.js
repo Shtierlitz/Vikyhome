@@ -8,6 +8,7 @@ export const CalcContainer = styled.div`
 export const CalculatorTitle = styled.h2`
   font-size: 20px;
   margin-top: 20px;
+  user-select: none;
 
   @media ${DEVICE.tablet} {
   }
@@ -18,6 +19,7 @@ export const CalculatorTitle = styled.h2`
 export const CalculatorTotal = styled.h2`
   font-size: 20px;
   margin-top: 20px;
+  user-select: none;
   @media ${DEVICE.tablet} {
   }
   @media ${DEVICE.laptop} {
@@ -36,6 +38,7 @@ export const Item = styled.li`
   align-items: center; 
   text-align: start;
   color: ${(p) => p.theme.colors.titleMainColor};
+  user-select: none;
 
   @media ${DEVICE.tablet} {
   }

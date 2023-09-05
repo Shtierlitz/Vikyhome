@@ -32,6 +32,7 @@ export const ModalDescription = styled.p`
   color: ${p => p.theme.colors.colorWhite};
   font-size: 15px;
   margin-right: 10px;
+  user-select: none;
 
   @media ${DEVICE.tablet} {
   }
@@ -45,6 +46,7 @@ export const ModalPrice = styled.p`
   color: ${p => p.theme.colors.titleMainColor};
   font-size: 18px;
   margin-left:auto;
+  user-select: none;
 
   @media ${DEVICE.tablet} {
   }
@@ -58,6 +60,7 @@ export const ModalPriceDesc = styled.p`
   color: ${p => p.theme.colors.titleMainColor};
   font-size: 15px;
   margin-left: 5px;
+  user-select: none;
 
   @media ${DEVICE.tablet} {
 
@@ -95,8 +98,7 @@ export const ModalContainer = styled.div`
   max-height: 800px;
   }
   @media ${DEVICE.laptop} {
- /* width: 800px;
-height: 800px; */
+
  padding: 20px; 
   }
 `;
@@ -106,4 +108,5 @@ export const ModalText = styled.div`
   display: flex;
 align-items: center;
 justify-content: center;
+user-select: none;
 `;

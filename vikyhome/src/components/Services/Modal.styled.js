@@ -60,6 +60,7 @@ font-size: 14px;
 display: flex;
 justify-content: start;
 text-align: start;
+user-select: none;
 
 @media ${DEVICE.tablet} {
 
@@ -72,6 +73,7 @@ text-align: start;
 export const ModalPrice = styled.p`
 color: ${p => p.theme.colors.titleMainColor};
 font-size: 38px;
+user-select: none;
 
 @media ${DEVICE.tablet} {
 
@@ -84,6 +86,7 @@ font-size: 38px;
 export const ModalPriceDesc = styled.p`
 color: ${p => p.theme.colors.titleMainColor};
 font-size: 38px;
+user-select: none;
 
 @media ${DEVICE.tablet} {
 
