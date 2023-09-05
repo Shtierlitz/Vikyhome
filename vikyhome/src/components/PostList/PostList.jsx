@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useEffect, useState, useCallback } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import {
   Wrapper,
   Title,
@@ -35,24 +35,37 @@ const PostList = () => {
 
   return (
     <Wrapper>
-      <PostContainer>
-        <PostBtn onClick={() => setIsListOpen(!isListOpen)}>
-          {isListOpen ? "Згорнути" : "Блог"}
-        </PostBtn>
-        <PostLi>
-          {isListOpen &&
-            posts.map((post) => (
+    <PostContainer>
+      <PostBtn onClick={() => setIsListOpen(!isListOpen)}>
+        {isListOpen ? "Згорнути" : "Блог"}
+      </PostBtn>
+      <PostLi>
+        {isListOpen && (
+          <List>
+            {posts.map((post) => (
               <Box key={post.id}>
-                <List key={post.id}>
+                
                   <Title>{post.title}</Title>
-                  <Text>{post.text}</Text>
-                </List>
+                  <Text>
+                    {post.text.split("\n").map((line, index) => (
+                      <React.Fragment key={index}>
+                        {line}
+                        <br />
+                      </React.Fragment>
+                    ))}
+                  </Text>
+                
               </Box>
             ))}
-        </PostLi>
-      </PostContainer>
-    </Wrapper>
+          </List>
+        )}
+      </PostLi>
+    </PostContainer>
+  </Wrapper>
   );
 };
 
 export default PostList;
+
+
+

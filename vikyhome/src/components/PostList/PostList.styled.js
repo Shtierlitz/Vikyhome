@@ -29,22 +29,17 @@ justify-content: space-around;
 
 export const Title = styled.h1`
  color: ${p => p.theme.colors.titleMainColor};
- display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 27px;
+ text-align: center;
+  font-size: 32px;
   user-select: none;
+  margin-bottom: 10px;
 
 @media ${DEVICE.tablet} {
   font-size: 30px;
 }
 @media ${DEVICE.laptop} {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   font-size: 37px;
-  margin-bottom: 15px;
+ 
 }
 `;
 
@@ -74,11 +69,12 @@ export const List =styled.li`
 `;
 
 export const Box =styled.div`
-display: flex;
+
+text-align: left;
 border: 7px solid ${p => p.theme.colors.colorPink};
 border-radius: 20px;
 margin-bottom: 20px;
-padding: 15px;
+padding: 35px;
 user-select: none;
 `;
 
