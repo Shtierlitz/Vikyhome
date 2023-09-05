@@ -22,7 +22,7 @@ class ExtraAdmin(admin.ModelAdmin):
 
 class PostAdmin(admin.ModelAdmin):
     list_display = ('id', 'title', "text")
-    list_display_links = ('id', 'title')
+    list_display_links = ('id', 'title', 'text')
 
 
 admin.site.register(Extra, ExtraAdmin)
